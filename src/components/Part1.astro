@@ -7,10 +7,10 @@ interface Props {
 const {img, text1 , text2} = Astro.props;
 ---
 
-<div class="bg-pwhite p-6 rounded-3xl flex flex-col gap-7">  
+<div class="bg-pwhite p-4 rounded-3xl flex flex-col gap-5">  
     <img class="rounded-3xl" src={img} alt="">
-    <article class="flex flex-col gap-5 px-10 text-center">
-        <h1 class="text-3xl font-bold text-pdblue">{text1}</h1>
-        <p class="text-xl text-pgblue pb-6">{text2}</p>
+    <article class="flex flex-col gap-4 px-5 text-center">
+        <h1 class="text-xl font-bold text-pdblue">{text1}</h1>
+        <p class="text-md text-pgblue pb-6">{text2}</p>
     </article>
 </div>
